@@ -1,0 +1,303 @@
+// Small screen smartphone
+@media screen and (max-width: 374px) {
+  header {
+    nav {
+      padding: 1rem;
+
+      svg {
+        font-size: 1rem;
+      }
+
+      a {
+        width: 50%;
+      }
+    }
+  }
+
+  main {
+    section#hero {
+      padding: 1.5rem;
+
+      h2 {
+        margin: 0;
+      }
+
+      p {
+        width: 100%;
+        margin-top: 1rem;
+      }
+
+      .btn-primary {
+        padding: 1.2rem;
+        bottom: 1.5rem;
+      }
+    }
+  }
+}
+
+// Tablet
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  body {
+    h1 {
+      font-size: 5rem;
+    }
+
+    h2 {
+      font-size: 4rem;
+    }
+
+    p, button, a {
+      font-size: 1.5rem;
+    }
+  }
+
+  header {
+    nav {
+      padding: 1.5rem;
+
+      svg {
+        font-size: 2.6rem;
+      }
+
+      a {
+        width: 40%;
+      }
+    }
+  }
+
+  main {
+    section#hero {
+      height: 60%;
+      padding: 3rem;
+
+      h2 {
+        margin: 0;
+      }
+
+      p {
+        width: 70%;
+        margin-top: 2rem;
+      }
+
+      .btn-primary {
+        padding: 1.2rem;
+        bottom: 3rem;
+      }
+    }
+
+    section.content {
+      h2 {
+        font-size: 3rem;
+        margin: 2rem 0;
+      }
+
+      .categories {
+        padding-bottom: 2rem;
+        justify-content: center;
+
+
+        .btn {
+          margin-right: 0.7rem;
+        }
+      }
+
+      .cards {
+        padding: 3rem;
+      }
+    }
+  }
+
+  .card {
+    height: 13rem;
+
+    .card-info {
+      height: 150px;
+    }
+
+    img {
+      height: 150px;
+      width: 150px;
+    }
+  }
+}
+
+// Laptop
+@media screen and (min-width: 1025px) and (max-width: 1800px) {
+  body {
+    h1 {
+      font-size: 4.5rem;
+    }
+
+    h2 {
+      font-size: 3.5rem;
+    }
+
+    p, button, a {
+      font-size: 1.3rem;
+    }
+  }
+
+  header {
+    nav {
+      padding: 1.5rem 2rem;
+
+      svg {
+        font-size: 1.8rem;
+      }
+
+      a {
+        width: 20%;
+      }
+    }
+  }
+
+  main {
+    section#hero {
+      height: 60%;
+      padding: 3rem 5rem;
+
+      h2 {
+        margin: 0;
+      }
+
+      p {
+        width: 100%;
+        margin-top: 1.5rem;
+      }
+
+      .btn-primary {
+        padding: 1.2rem;
+        bottom: 3rem;
+      }
+    }
+
+    section.content {
+      h2 {
+        font-size: 3.2rem;
+        margin: 3.5rem 0;
+      }
+
+      .categories {
+        padding-bottom: 3.5rem;
+        justify-content: center;
+
+
+        .btn {
+          margin-right: 1.5rem;
+        }
+      }
+
+      .cards {
+        padding: 3rem 5rem;
+      }
+    }
+  }
+
+  .card {
+    height: 18rem;
+
+    .card-info {
+      height: 200px;
+
+      .title {
+        font-size: 2.5rem;
+      }
+    }
+
+    img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+}
+
+// Big screen
+@media screen and (min-width: 1801px) {
+  body {
+    h1 {
+      font-size: 6.5rem;
+    }
+
+    h2 {
+      font-size: 5rem;
+    }
+
+    p, button, a {
+      font-size: 2rem;
+    }
+  }
+
+  header {
+    nav {
+      padding: 1.5rem 3rem;
+
+      svg {
+        font-size: 3rem;
+      }
+
+      a {
+        width: 20%;
+      }
+    }
+  }
+
+  main {
+    section#hero {
+      height: 55%;
+      padding: 4rem 8rem;
+
+      h2 {
+        margin: 0;
+      }
+
+      p {
+        width: 70%;
+        margin-top: 1.5rem;
+      }
+
+      .btn-primary {
+        padding: 1.2rem;
+        bottom: 4rem;
+      }
+    }
+
+    section.content {
+      h2 {
+        font-size: 4.5rem;
+        margin: 4rem 0;
+      }
+
+      .categories {
+        padding-bottom: 4rem;
+        justify-content: center;
+
+
+        .btn {
+          padding: 1.2rem 2rem;
+          margin-right: 2rem;
+        }
+      }
+
+      .cards {
+        padding: 4rem 8rem;
+      }
+    }
+  }
+
+  .card {
+    height: 18rem;
+
+    .card-info {
+      height: 200px;
+
+      .title {
+        font-size: 3rem;
+      }
+    }
+
+    img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10rem; }
+
+.btn.btn-primary {
+  background-color: #F4CE14; }
+
+.btn.btn-secondary {
+  color: white;
+  background-color: #495E57; }
+
+.btn.btn-tertiary {
+  color: black;
+  background-color: #e1e1e1; }

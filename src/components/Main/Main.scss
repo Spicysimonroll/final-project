@@ -1,0 +1,73 @@
+main {
+  height: 90vh;
+
+  section#hero {
+    height: 50%;
+    background-color: #495E57;
+    padding: 1rem;
+    position: relative;
+
+    h1 {
+      color: #F4CE14;
+    }
+
+    h2, p {
+      color: white;
+    }
+
+    h2 {
+      margin: 0.66rem 0;
+    }
+
+    p {
+      width: 80%;
+    }
+
+    .btn-primary {
+      position: absolute;
+      bottom: 2rem;
+    }
+  }
+
+  section.content {
+    h2 {
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 2.2rem;
+      margin: 1.5rem 0;
+    }
+
+    .categories {
+      display: flex;
+      padding-bottom: 1.5rem;
+      font-weight: 600;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      overflow-x: scroll;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      .btn {
+        white-space: nowrap;
+        font-weight: 600;
+        margin-right: 0.5rem;
+        transition: all 0.1s ease-in-out;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &.selected {
+          color: white;
+          background-color: #495E57;
+        }
+      }
+    }
+
+    .cards {
+      padding: 1rem;
+      width: 100%;
+    }
+  }
+}

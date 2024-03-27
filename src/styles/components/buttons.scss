@@ -1,0 +1,21 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10rem;
+
+  &.btn-primary {
+    background-color: #F4CE14;
+  }
+
+  &.btn-secondary {
+    color: white;
+    background-color: #495E57;
+  }
+
+  &.btn-tertiary {
+    color: black;
+    background-color: rgb(225, 225, 225);
+  }
+}
