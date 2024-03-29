@@ -6,7 +6,7 @@ export default function Card({ name, description, price, image }) {
         <p className='description'>{description}</p>
         <p className='price'>{price}</p>
       </div>
-      <img src={image} alt='' />
+      <img src={image} alt={name} />
     </div>
   );
 }
