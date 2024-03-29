@@ -101,24 +101,24 @@ export default function TableReservation() {
                 }}
                 value={formik.values.date}
               />
-              {formik.touched.date && formik.errors.date ? (<span class="invalid-error">{formik.errors.date}</span>) : null}
+              {formik.touched.date && formik.errors.date ? (<span className="invalid-error">{formik.errors.date}</span>) : null}
             </div>
           </section>
           <section>
             <div className='form-control'>
               <label htmlFor='first-name'>Name</label>
               <input id='first-name' type='text' name='first-name' {...formik.getFieldProps("firstName")} />
-              {formik.touched.firstName && formik.errors.firstName ? (<span class="invalid-error">{formik.errors.firstName}</span>) : null}
+              {formik.touched.firstName && formik.errors.firstName ? (<span className="invalid-error">{formik.errors.firstName}</span>) : null}
             </div>
             <div className='form-control'>
               <label htmlFor='last-name'>Last name</label>
               <input id='last-name' type='text' name='last-name' {...formik.getFieldProps("lastName")} />
-              {formik.touched.lastName && formik.errors.lastName ? (<span class="invalid-error">{formik.errors.lastName}</span>) : null}
+              {formik.touched.lastName && formik.errors.lastName ? (<span className="invalid-error">{formik.errors.lastName}</span>) : null}
             </div>
             <div className='form-control'>
               <label htmlFor='phone'>Phone No.</label>
               <input id='phone' type='text' name='phone' {...formik.getFieldProps("phoneNumber")} />
-              {formik.touched.phoneNumber && formik.errors.phoneNumber ? (<span class="invalid-error">{formik.errors.phoneNumber}</span>) : null}
+              {formik.touched.phoneNumber && formik.errors.phoneNumber ? (<span className="invalid-error">{formik.errors.phoneNumber}</span>) : null}
             </div>
             <div className='form-control'>
               <label htmlFor='number-of-people'>Number of people</label>
@@ -135,12 +135,12 @@ export default function TableReservation() {
                 <option value='9'>9</option>
                 <option value='10'>10</option>
               </select>
-              {formik.touched.numberOfPeople && formik.errors.numberOfPeople ? (<span class="invalid-error">{formik.errors.numberOfPeople}</span>) : null}
+              {formik.touched.numberOfPeople && formik.errors.numberOfPeople ? (<span className="invalid-error">{formik.errors.numberOfPeople}</span>) : null}
             </div>
             <div className='form-control'>
               <label htmlFor='arrival-time'>Arrival time</label>
               <input id='arrival-time' type='text' name='arrival-time' {...formik.getFieldProps("arrivalTime")} />
-              {formik.touched.arrivalTime && formik.errors.arrivalTime ? (<span class="invalid-error">{formik.errors.arrivalTime}</span>) : null}
+              {formik.touched.arrivalTime && formik.errors.arrivalTime ? (<span className="invalid-error">{formik.errors.arrivalTime}</span>) : null}
             </div>
           </section>
         </div>
