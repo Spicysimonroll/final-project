@@ -2,9 +2,7 @@
   header nav {
     padding: 1rem; }
   header nav svg {
-    font-size: 1rem; }
-  header nav a {
-    width: 50%; }
+    font-size: 1.5rem; }
   main section#hero {
     padding: 1.5rem; }
   main section#hero h2 {
@@ -22,7 +20,7 @@
   body h2 {
     font-size: 4rem; }
   body p, body button, body a {
-    font-size: 1.5rem; }
+    font-size: 1.7rem; }
   header nav {
     padding: 1.5rem; }
   header nav svg {
@@ -30,7 +28,7 @@
   header nav a {
     width: 40%; }
   main section#hero {
-    height: 60%;
+    height: 55vh;
     padding: 3rem; }
   main section#hero h2 {
     margin: 0; }
@@ -38,7 +36,6 @@
     width: 70%;
     margin-top: 2rem; }
   main section#hero .btn-primary {
-    padding: 1.2rem;
     bottom: 3rem; }
   main section.content h2 {
     font-size: 3rem;
@@ -50,6 +47,89 @@
     margin-right: 0.7rem; }
   main section.content .cards {
     padding: 3rem; }
+  main .layer .confirmation {
+    height: 85%;
+    padding: 3rem; }
+  main .layer .confirmation div {
+    margin-bottom: 1rem;
+    padding: 0.8rem 0; }
+  main .layer .confirmation div:first-child {
+    margin-bottom: 1.5rem; }
+  main .layer .confirmation div:first-child svg {
+    font-size: 3.2rem; }
+  main .layer .confirmation div h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+  main .layer .confirmation a {
+    margin-top: 1rem;
+    width: 100%; }
+  main form {
+    padding: 3rem; }
+  main form h1 {
+    margin-bottom: 3.5rem; }
+  main form .form-control {
+    margin-bottom: 3.5rem; }
+  main form .form-control .flatpickr-calendar {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    height: 51vh;
+    font-size: 1.3rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months {
+    height: 5.5rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month {
+    height: 100%; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month {
+    height: 100%; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month .flatpickr-monthDropdown-months, main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month .cur-year {
+    font-size: 2rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month .flatpickr-monthDropdown-months .flatpickr-monthDropdown-month {
+    font-size: 1.5rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month .cur-year {
+    width: 5rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-prev-month {
+    margin-left: 2.5rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-next-month {
+    margin-right: 2.5rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer {
+    height: 82%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer {
+    height: 100%;
+    padding: 1.5rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-weekdays {
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    height: 15%; }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-days {
+    display: block;
+    height: 85%; }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-days .dayContainer {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-days .dayContainer .flatpickr-day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px; }
+  main form .form-control label {
+    margin-bottom: 2rem;
+    font-size: 1.5rem; }
+  main form .form-control input, main form .form-control select {
+    font-size: 1.7rem;
+    height: 3rem;
+    padding: 0 1rem;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7); }
+  main form .form-control .invalid-error {
+    font-size: 1.2rem;
+    margin-top: 0.8rem; }
+  main form input[type=submit] {
+    font-size: 1.7rem; }
+  .btn {
+    padding: 1.2rem; }
   .card {
     height: 13rem; }
   .card .card-info {
@@ -68,17 +148,19 @@
   header nav {
     padding: 1.5rem 2rem; }
   header nav svg {
-    font-size: 1.8rem; }
+    font-size: 1.6rem; }
   header nav a {
     width: 20%; }
+  header nav a img {
+    width: 75%; }
   main section#hero {
-    height: 60%;
+    height: 60vh;
     padding: 3rem 5rem; }
   main section#hero h2 {
     margin: 0; }
   main section#hero p {
     width: 100%;
-    margin-top: 1.5rem; }
+    margin-top: 1rem; }
   main section#hero .btn-primary {
     padding: 1.2rem;
     bottom: 3rem; }
@@ -92,6 +174,97 @@
     margin-right: 1.5rem; }
   main section.content .cards {
     padding: 3rem 5rem; }
+  main .layer .confirmation {
+    height: 100%;
+    width: 100%;
+    padding: 3rem 5rem; }
+  main .layer .confirmation div {
+    margin-bottom: 1rem;
+    padding: 0.8rem 0; }
+  main .layer .confirmation div:first-child {
+    margin-bottom: 1.5rem; }
+  main .layer .confirmation div:first-child svg {
+    font-size: 3.2rem; }
+  main .layer .confirmation div h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+  main .layer .confirmation a {
+    margin-top: 1rem;
+    width: 100%; }
+  main form {
+    padding: 3rem 5rem; }
+  main form .form-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 0; }
+  main form .form-details section {
+    width: 45%; }
+  main form .form-control {
+    margin-bottom: 3rem; }
+  main form .form-control:last-child {
+    margin-bottom: 0; }
+  main form .form-control .flatpickr-calendar {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    height: 65vh;
+    font-size: 1.3rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months {
+    height: 5.5rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month {
+    height: 100%; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month {
+    height: 100%; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month .flatpickr-monthDropdown-months, main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month .cur-year {
+    font-size: 2rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month .flatpickr-monthDropdown-months .flatpickr-monthDropdown-month {
+    font-size: 1.5rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month .cur-year {
+    width: 5rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-prev-month {
+    margin-left: 2.5rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-next-month {
+    margin-right: 2.5rem; }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer {
+    height: 83.5%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer {
+    height: 100%;
+    padding: 1.5rem;
+    padding-top: 0; }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-weekdays {
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    height: 15%; }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-days {
+    display: block;
+    height: 85%; }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-days .dayContainer {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); }
+  main form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-days .dayContainer .flatpickr-day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px; }
+  main form .form-control label {
+    margin-bottom: 1rem;
+    font-size: 1.5rem; }
+  main form .form-control input, main form .form-control select {
+    font-size: 1.3rem;
+    height: 2.5rem;
+    padding: 0 1rem;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7); }
+  main form .form-control .invalid-error {
+    font-size: 1.2rem;
+    margin-top: 0.8rem; }
+  main form input[type=submit] {
+    font-size: 1.7rem; }
   .card {
     height: 18rem; }
   .card .card-info {

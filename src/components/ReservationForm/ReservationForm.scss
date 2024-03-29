@@ -1,0 +1,213 @@
+.layer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1001;
+
+  &.hidden {
+    display: none;
+  }
+
+  .confirmation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 87%;
+    height: 70%;
+    border-radius: 5px;
+    padding: 2rem;
+
+    div {
+      width: 100%;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      margin-bottom: 0.6rem;
+      padding: 0.4rem 0;
+
+      &:first-child {
+        border: none;
+        color: #48742C;
+        text-align: center;
+        margin-bottom: 1.5rem;
+
+        svg {
+          font-size: 2.7rem;
+        }
+      }
+
+      h3 {
+        font-weight: 400;
+        opacity: 0.6;
+        margin-bottom: 0.7rem;
+      }
+
+      p {
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+
+    a {
+      margin-top: 1rem;
+      width: 100%;
+    }
+  }
+}
+
+form {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+
+    .flatpickr-input, .arrowTop::before, .arrowTop::after {
+      display: none;
+    }
+
+    .flatpickr-calendar {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      margin: 0 auto;
+      width: 100%;
+
+      .flatpickr-months {
+        display: flex;
+        align-items: center;
+        height: 3.5rem;
+        position: relative;
+
+        .flatpickr-month,
+        .flatpickr-current-month .flatpickr-monthDropdown-months,
+        .flatpickr-current-month .flatpickr-monthDropdown-months .flatpickr-monthDropdown-month {
+          background: white;
+          color: black;
+        }
+
+        .flatpickr-month {
+
+          .flatpickr-current-month {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            position: unset;
+            padding: 0;
+
+            .flatpickr-monthDropdown-months, .cur-year {
+                text-align: center;
+            }
+          }
+        }
+
+        .flatpickr-prev-month, .flatpickr-next-month {
+          color: black;
+          fill: black;
+          position: unset;
+
+          &.flatpickr-disabled {
+            display: block;
+          }
+        }
+
+        .flatpickr-prev-month {
+          margin-left: 1rem;
+        }
+
+        .flatpickr-next-month {
+          margin-right: 1rem;
+        }
+      }
+
+      .flatpickr-innerContainer {
+        width: 100%;
+
+        .flatpickr-rContainer {
+          width: 100%;
+          padding: 1rem;
+          display: flex;
+          flex-direction: column;
+
+
+          .flatpickr-weekdays {
+            background: white;
+            height: 1.5rem;
+            margin-bottom: 1rem;
+
+            .flatpickr-weekday {
+              background-color: white;
+            }
+          }
+
+          .flatpickr-days {
+            width: 100%;
+            border: none;
+
+            .dayContainer {
+              width: 100%;
+              min-width: unset;
+              max-width: unset;
+
+              .flatpickr-day {
+                max-width: unset;
+                width: 39px;
+                margin: 0 auto;
+
+
+                &.selected {
+                  background: #F4CE14;
+                  color: black;
+                  border: none;
+                }
+              }
+            }
+
+
+          }
+        }
+      }
+    }
+
+    label, input {
+      width: 100%;
+    }
+
+    label {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
+    input, select {
+      font-size: 1.25rem;
+      height: 2rem;
+      padding: 0 1rem;
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+    }
+
+    .invalid-error {
+      color: rgb(165, 0, 0);
+      margin-top: 0.5rem;
+    }
+  }
+
+  input[type=submit] {
+    font-size: 1.25rem;
+  }
+}

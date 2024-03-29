@@ -1,0 +1,171 @@
+.layer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1001; }
+
+.layer.hidden {
+  display: none; }
+
+.layer .confirmation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 87%;
+  height: 70%;
+  border-radius: 5px;
+  padding: 2rem; }
+
+.layer .confirmation div {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.6rem;
+  padding: 0.4rem 0; }
+
+.layer .confirmation div:first-child {
+  border: none;
+  color: #48742C;
+  text-align: center;
+  margin-bottom: 1.5rem; }
+
+.layer .confirmation div:first-child svg {
+  font-size: 2.7rem; }
+
+.layer .confirmation div h3 {
+  font-weight: 400;
+  opacity: 0.6;
+  margin-bottom: 0.7rem; }
+
+.layer .confirmation div p {
+  font-weight: 700;
+  text-align: center; }
+
+.layer .confirmation a {
+  margin-top: 1rem;
+  width: 100%; }
+
+form {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem; }
+
+form h1 {
+  text-align: center;
+  margin-bottom: 2rem; }
+
+form .form-control {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 2rem; }
+
+form .form-control .flatpickr-input, form .form-control .arrowTop::before, form .form-control .arrowTop::after {
+  display: none; }
+
+form .form-control .flatpickr-calendar {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  width: 100%; }
+
+form .form-control .flatpickr-calendar .flatpickr-months {
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  position: relative; }
+
+form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month,
+form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-current-month .flatpickr-monthDropdown-months,
+form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-current-month .flatpickr-monthDropdown-months .flatpickr-monthDropdown-month {
+  background: white;
+  color: black; }
+
+form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: unset;
+  padding: 0; }
+
+form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month .flatpickr-monthDropdown-months, form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-month .flatpickr-current-month .cur-year {
+  text-align: center; }
+
+form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-prev-month, form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-next-month {
+  color: black;
+  fill: black;
+  position: unset; }
+
+form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-prev-month.flatpickr-disabled, form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-next-month.flatpickr-disabled {
+  display: block; }
+
+form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-prev-month {
+  margin-left: 1rem; }
+
+form .form-control .flatpickr-calendar .flatpickr-months .flatpickr-next-month {
+  margin-right: 1rem; }
+
+form .form-control .flatpickr-calendar .flatpickr-innerContainer {
+  width: 100%; }
+
+form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column; }
+
+form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-weekdays {
+  background: white;
+  height: 1.5rem;
+  margin-bottom: 1rem; }
+
+form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-weekdays .flatpickr-weekday {
+  background-color: white; }
+
+form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-days {
+  width: 100%;
+  border: none; }
+
+form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-days .dayContainer {
+  width: 100%;
+  min-width: unset;
+  max-width: unset; }
+
+form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-days .dayContainer .flatpickr-day {
+  max-width: unset;
+  width: 39px;
+  margin: 0 auto; }
+
+form .form-control .flatpickr-calendar .flatpickr-innerContainer .flatpickr-rContainer .flatpickr-days .dayContainer .flatpickr-day.selected {
+  background: #F4CE14;
+  color: black;
+  border: none; }
+
+form .form-control label, form .form-control input {
+  width: 100%; }
+
+form .form-control label {
+  margin-bottom: 1rem;
+  font-size: 1.1rem; }
+
+form .form-control input, form .form-control select {
+  font-size: 1.25rem;
+  height: 2rem;
+  padding: 0 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7); }
+
+form .form-control .invalid-error {
+  color: #a50000;
+  margin-top: 0.5rem; }
+
+form input[type=submit] {
+  font-size: 1.25rem; }

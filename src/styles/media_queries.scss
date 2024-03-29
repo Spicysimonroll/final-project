@@ -5,11 +5,7 @@
       padding: 1rem;
 
       svg {
-        font-size: 1rem;
-      }
-
-      a {
-        width: 50%;
+        font-size: 1.5rem;
       }
     }
   }
@@ -47,7 +43,7 @@
     }
 
     p, button, a {
-      font-size: 1.5rem;
+      font-size: 1.7rem;
     }
   }
 
@@ -67,7 +63,7 @@
 
   main {
     section#hero {
-      height: 60%;
+      height: 55vh;
       padding: 3rem;
 
       h2 {
@@ -80,7 +76,6 @@
       }
 
       .btn-primary {
-        padding: 1.2rem;
         bottom: 3rem;
       }
     }
@@ -105,6 +100,151 @@
         padding: 3rem;
       }
     }
+
+    .layer {
+      .confirmation {
+        height: 85%;
+        padding: 3rem;
+
+        div {
+          margin-bottom: 1rem;
+          padding: 0.8rem 0;
+
+          &:first-child {
+            margin-bottom: 1.5rem;
+
+            svg {
+              font-size: 3.2rem;
+            }
+          }
+
+          h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+          }
+        }
+
+        a {
+          margin-top: 1rem;
+          width: 100%;
+        }
+      }
+    }
+
+    form {
+      padding: 3rem;
+
+      h1 {
+        margin-bottom: 3.5rem;
+      }
+
+      .form-control {
+        margin-bottom: 3.5rem;
+
+        .flatpickr-calendar {
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          margin: 0 auto;
+          height: 51vh;
+          font-size: 1.3rem;
+
+          .flatpickr-months {
+            height: 5.5rem;
+
+            .flatpickr-month {
+              height: 100%;
+
+              .flatpickr-current-month {
+                height: 100%;
+
+                .flatpickr-monthDropdown-months, .cur-year {
+                  font-size: 2rem;
+                }
+
+                .flatpickr-monthDropdown-months {
+                  .flatpickr-monthDropdown-month {
+                    font-size: 1.5rem;
+                  }
+                }
+
+                .cur-year {
+                  width: 5rem;
+                }
+              }
+            }
+
+            .flatpickr-prev-month {
+              margin-left: 2.5rem;
+            }
+
+            .flatpickr-next-month {
+              margin-right: 2.5rem;
+            }
+          }
+
+          .flatpickr-innerContainer {
+            height: 82%;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+            .flatpickr-rContainer {
+              height: 100%;
+              padding: 1.5rem;
+
+              .flatpickr-weekdays {
+                height: 1.5rem;
+                margin-bottom: 1rem;
+                height: 15%;
+              }
+
+              .flatpickr-days {
+                display: block;
+                height: 85%;
+
+                .dayContainer {
+                  height: 100%;
+                  display: grid;
+                  grid-template-columns: repeat(7, 1fr);
+
+                  .flatpickr-day {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 50px;
+                    height: 50px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        label {
+          margin-bottom: 2rem;
+          font-size: 1.5rem;
+        }
+
+        input, select {
+          font-size: 1.7rem;
+          height: 3rem;
+          padding: 0 1rem;
+          border: none;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+        }
+
+        .invalid-error {
+          font-size: 1.2rem;
+          margin-top: 0.8rem;
+        }
+      }
+
+      input[type=submit] {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .btn {
+    padding: 1.2rem;
   }
 
   .card {
@@ -142,18 +282,22 @@
       padding: 1.5rem 2rem;
 
       svg {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
       }
 
       a {
         width: 20%;
+
+        img {
+          width: 75%;
+        }
       }
     }
   }
 
   main {
     section#hero {
-      height: 60%;
+      height: 60vh;
       padding: 3rem 5rem;
 
       h2 {
@@ -162,7 +306,7 @@
 
       p {
         width: 100%;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
       }
 
       .btn-primary {
@@ -189,6 +333,161 @@
 
       .cards {
         padding: 3rem 5rem;
+      }
+    }
+
+    .layer {
+      .confirmation {
+        height: 100%;
+        width: 100%;
+        padding: 3rem 5rem;
+
+        div {
+          margin-bottom: 1rem;
+          padding: 0.8rem 0;
+
+          &:first-child {
+            margin-bottom: 1.5rem;
+
+            svg {
+              font-size: 3.2rem;
+            }
+          }
+
+          h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+          }
+        }
+
+        a {
+          margin-top: 1rem;
+          width: 100%;
+        }
+      }
+    }
+
+    form {
+      padding: 3rem 5rem;
+
+      .form-details {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 3rem 0;
+
+        section {
+          width: 45%;
+        }
+      }
+
+      .form-control {
+        margin-bottom: 3rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        .flatpickr-calendar {
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          margin: 0 auto;
+          height: 65vh;
+          font-size: 1.3rem;
+
+          .flatpickr-months {
+            height: 5.5rem;
+
+            .flatpickr-month {
+              height: 100%;
+
+              .flatpickr-current-month {
+                height: 100%;
+
+                .flatpickr-monthDropdown-months, .cur-year {
+                  font-size: 2rem;
+                }
+
+                .flatpickr-monthDropdown-months {
+                  .flatpickr-monthDropdown-month {
+                    font-size: 1.5rem;
+                  }
+                }
+
+                .cur-year {
+                  width: 5rem;
+                }
+              }
+            }
+
+            .flatpickr-prev-month {
+              margin-left: 2.5rem;
+            }
+
+            .flatpickr-next-month {
+              margin-right: 2.5rem;
+            }
+          }
+
+          .flatpickr-innerContainer {
+            height: 83.5%;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+            .flatpickr-rContainer {
+              height: 100%;
+              padding: 1.5rem;
+              padding-top: 0;
+
+              .flatpickr-weekdays {
+                height: 1.5rem;
+                margin-bottom: 1rem;
+                height: 15%;
+              }
+
+              .flatpickr-days {
+                display: block;
+                height: 85%;
+
+                .dayContainer {
+                  height: 100%;
+                  display: grid;
+                  grid-template-columns: repeat(7, 1fr);
+
+                  .flatpickr-day {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 50px;
+                    height: 50px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        label {
+          margin-bottom: 1rem;
+          font-size: 1.5rem;
+        }
+
+        input, select {
+          font-size: 1.3rem;
+          height: 2.5rem;
+          padding: 0 1rem;
+          border: none;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+        }
+
+        .invalid-error {
+          font-size: 1.2rem;
+          margin-top: 0.8rem;
+        }
+      }
+
+      input[type=submit] {
+        font-size: 1.7rem;
       }
     }
   }
