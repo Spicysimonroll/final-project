@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Change alias to Router
 import Homepage from '../Homepage/Homepage';
-import ReservationForm from '../ReservationForm/ReservationForm';
+import TableReservation from '../ReservationForm/ReservationForm';
 
 export default function Main() {
 
@@ -9,7 +9,7 @@ export default function Main() {
     <main>
       <Routes>
         <Route path='/' element={<Homepage />} />
-        <Route path='/reserve-table' element={<ReservationForm />} />
+        <Route path='/reserve-table' element={<TableReservation />} />
       </Routes>
     </main>
   )

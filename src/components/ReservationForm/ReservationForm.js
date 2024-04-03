@@ -99,6 +99,7 @@ export default function TableReservation() {
                   minDate: 'today',
                   onChange: (date => formik.setFieldValue('date', date[0]))
                 }}
+                data-testid='date-picker'
                 value={formik.values.date}
               />
               {formik.touched.date && formik.errors.date ? (<span className="invalid-error">{formik.errors.date}</span>) : null}
@@ -144,7 +145,7 @@ export default function TableReservation() {
             </div>
           </section>
         </div>
-        <input type='submit' value='Reserve now' className='btn btn-secondary' />
+        <input type='submit' value='Reserve now' className='btn btn-secondary' data-testid='submit-button' />
       </form>
     </>
   )

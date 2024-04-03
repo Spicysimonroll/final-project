@@ -8,11 +8,11 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <FontAwesomeIcon icon={faBars} />
+        <FontAwesomeIcon icon={faBars} data-testid='bars' />
         <Link to="/">
           <img src={Logo} alt="Little Lemon's logo" />
         </Link>
-        <FontAwesomeIcon icon={faCartShopping} />
+        <FontAwesomeIcon icon={faCartShopping} data-testid='cart' />
       </nav>
     </header>
   )
